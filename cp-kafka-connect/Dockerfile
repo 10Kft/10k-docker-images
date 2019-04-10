@@ -19,4 +19,3 @@ FROM confluentinc/cp-kafka-connect:5.1.0
 
 RUN echo "===> Installing Debzium CDC ..."
 RUN confluent-hub install debezium/debezium-connector-mysql:0.9.2 --no-prompt
-RUN 
